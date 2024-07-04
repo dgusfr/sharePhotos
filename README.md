@@ -1,1 +1,1 @@
-npm jest express mongoose jsonwebtoken
+npm install jest supertest express mongoose jsonwebtoken
