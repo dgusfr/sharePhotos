@@ -45,10 +45,16 @@
 
 "Codigo do projeto"
 
+## Estrutura do projeto
+
+-| `jest.config.js` responsavel por permitir os testes unitários em ambientes que usam mongoose.
+
 ## Como Usar
 
 1. git clone
+
 2. npm install jest supertest express mongoose jsonwebtoken
+
 3.
 
 ## Autor
