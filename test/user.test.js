@@ -21,4 +21,18 @@ describe("User registration", () => {
         fail(err);
       });
   });
+
+  test("Prevent user from registering using empty data", () => {
+    let user = { name: "", email: "", password: "" };
+
+    request
+      .post("/user")
+      .send(user)
+      .then((res) => {
+        expect(res.statusCode).toEqual(400);
+      })
+      .catch((err) => {
+        fail(err);
+      });
+  });
 });
