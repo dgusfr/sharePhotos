@@ -9,6 +9,7 @@ describe("User registration", () => {
     let email = `${time}@gmail.com`;
     let user = { name: "Victor", email: "email@email.com", password: "123456" };
 
-    request.post("/user").send();
+    //Requisição HTTP automatizada
+    request.post("/user").send(user);
   });
 });
