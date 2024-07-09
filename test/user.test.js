@@ -10,6 +10,15 @@ describe("User registration", () => {
     let user = { name: "Victor", email: "email@email.com", password: "123456" };
 
     //Requisição HTTP automatizada
-    request.post("/user").send(user);
+    request
+      .post("/user")
+      .send(user)
+      .then((res) => {
+        expect(res.statusCode).toEqual(200);
+        expect(res.body.email).toEqual(email);
+      })
+      .catch((err) => {
+        fail(err);
+      });
   });
 });
