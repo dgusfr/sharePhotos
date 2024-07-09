@@ -16,7 +16,7 @@ mongoose
     console.log(err);
   });
 
-let User = mongoose.Model("User", user);
+let User = mongoose.model("User", user);
 
 app.get("/", (req, res) => {
   res.json({ message: "Hello World" });
