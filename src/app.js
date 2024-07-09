@@ -22,4 +22,17 @@ app.get("/", (req, res) => {
   res.json({ message: "Hello World" });
 });
 
+app.post("/user", async (req, res) => {
+  try {
+    let newUser = new User({
+      name: req.body.name,
+      email: req.body.email,
+      password: req.body.password,
+    });
+    await newUser.save();
+  } catch (err) {
+    res.sendStatus(500);
+  }
+});
+
 module.exports = app;
