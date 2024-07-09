@@ -23,6 +23,9 @@
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
     <img src="img/node.png" alt="Logo Linguagem" width="100"/>
   </div>
+  <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
+    <img src="img/mongoose.png" alt="Logo Linguagem" width="100"/>
+  </div>
 </div>
 
 ## Status
