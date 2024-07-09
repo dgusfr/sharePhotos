@@ -7,7 +7,7 @@ describe("User registration", () => {
     //alteração para a cada execução gerar um email unico
     let time = Date.now();
     let email = `${time}@gmail.com`;
-    let user = { name: "Victor", email: "email@email.com", password: "123456" };
+    let user = { name: "Diego", email: "email@email.com", password: "123456" };
 
     //Requisição HTTP automatizada
     request

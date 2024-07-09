@@ -29,6 +29,7 @@ app.post("/user", async (req, res) => {
       email: req.body.email,
       password: req.body.password,
     });
+    // Se o email que o usuario digitar for esse: res.json({email: "testeErrado@email.com"}); Irá gerar um erro!
     await newUser.save();
   } catch (err) {
     res.sendStatus(500);
