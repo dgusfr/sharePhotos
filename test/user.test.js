@@ -37,6 +37,22 @@ describe("User registration", () => {
   });
 
   test("Prevent user from registering using repeated email", () => {
+    let time = Date.now();
+    let email = `${time}@gmail.com`;
+    let user = { name: "Diego", email: "email@email.com", password: "123456" };
 
+    //Requisição HTTP automatizada
+    request
+      .post("/user")
+      .send(user)
+      .then((res) => {
+        expect(res.statusCode).toEqual(200);
+        expect(res.body.email).toEqual(email);
+
+        request.post("/user")
+      })
+      .catch((err) => {
+        fail(err);
+      });
   });
 });
