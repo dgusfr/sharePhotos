@@ -50,7 +50,8 @@ describe("User registration", () => {
         expect(res.body.email).toEqual(email);
 
         request.post("/user").send(user).then(res => {
-
+          expect(res.statusCode).toEqual(400);
+          expect(res.body.error).toEqual("Email já cadastrado");
         }).catch(err => {
           fail(err);
         });
