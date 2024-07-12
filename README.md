@@ -3,7 +3,7 @@
 Este é um aplicativo de compartilhamento de fotos criado usando Node.js, Express e MongoDB com Mongoose. O aplicativo também implementa Desenvolvimento Orientado a Testes (TDD) para garantir qualidade e confiabilidade do código.
 
 <div align="center">
-  <img src="img/logo.png" alt="Imagem do Projeto" width="100">
+  <img src="img/logo.png" alt="Imagem do Projeto" width="400">
 </div>
 
 ## Sumário
@@ -33,7 +33,7 @@ Este é um aplicativo de compartilhamento de fotos criado usando Node.js, Expres
 
 ## Status
 
-![Em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=RED&style=for-the-badge)
+![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)
 
 ## Descrição
 
@@ -96,3 +96,29 @@ app.post("/user", async (req, res) => {
 });
 
 module.exports = app;
+```
+
+Este trecho de código configura o servidor Express, conecta ao MongoDB e define as rotas básicas da aplicação, incluindo o registro de usuários.
+
+## Como Usar
+`1.` Clone este repositório.
+
+`2.` Instale as dependências usando npm install.
+
+`3.` Inicie o servidor com npm start.
+
+`4.` Execute os testes com npm test.
+
+## Estrutura do Projeto
+src/
+    models/
+        User.js
+    app.js
+    server.js
+test/
+    server.test.js
+    user.test.js
+
+
+## Autor
+Desenvolvido por Diego Franco
