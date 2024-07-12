@@ -41,7 +41,6 @@ describe("User registration", () => {
     let email = `${time}@gmail.com`;
     let user = { name: "Diego", email: "email@email.com", password: "123456" };
 
-    //Requisição HTTP automatizada
     request
       .post("/user")
       .send(user)
