@@ -24,7 +24,7 @@ Este é um aplicativo de compartilhamento de fotos criado usando Node.js, Expres
     <img src="img/js.png" alt="JavaScript" width="100"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
-    <img src="img/node.png" alt="Node.js" width="100"/>
+    <img src="img/node.png" alt="Node.js" width="250"/>
   </div>
   <div style="margin-right: 20px; display: flex; justify-content: flex-start;">
     <img src="img/mongodb.png" alt="MongoDB" width="100"/>
