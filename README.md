@@ -110,13 +110,21 @@ Este trecho de código configura o servidor Express, conecta ao MongoDB e define
 `4.` Execute os testes com npm test.
 
 ## Estrutura do Projeto
+
 src/
+
     models/
+
         User.js
     app.js
+
     server.js
+
+
 test/
+
     server.test.js
+
     user.test.js
 
 
