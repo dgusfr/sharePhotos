@@ -1,6 +1,6 @@
-# Photo Sharing Application
+# Aplicativo de compartilhamento de fotos
 
-This is a photo sharing application built using Node.js, Express, and MongoDB with Mongoose. The application also implements Test-Driven Development (TDD) to ensure code quality and reliability.
+Este é um aplicativo de compartilhamento de fotos criado usando Node.js, Express e MongoDB com Mongoose. O aplicativo também implementa Desenvolvimento Orientado a Testes (TDD) para garantir qualidade e confiabilidade do código.
 
 <div align="center">
   <img src="img/logo.png" alt="Imagem do Projeto" width="100">
