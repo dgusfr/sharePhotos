@@ -49,7 +49,11 @@ describe("User registration", () => {
         expect(res.statusCode).toEqual(200);
         expect(res.body.email).toEqual(email);
 
-        request.post("/user")
+        request.post("/user").send(user).then(res => {
+
+        }).catch(err => {
+          fail(err);
+        });
       })
       .catch((err) => {
         fail(err);
