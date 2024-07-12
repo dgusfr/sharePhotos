@@ -35,4 +35,8 @@ describe("User registration", () => {
         fail(err);
       });
   });
+
+  test("Prevent user from registering using repeated email", () => {
+
+  });
 });
