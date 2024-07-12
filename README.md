@@ -30,24 +30,3 @@
 
 <!-- ![Concluído](http://img.shields.io/static/v1?label=STATUS&message=CONCLUIDO&color=GREEN&style=for-the-badge)  -->
 
-## Descrição
-
-## Funcionalidades
-
-## Explicação
-
-## Estrutura do projeto
-
--| `jest.config.js` responsavel por permitir os testes unitários em ambientes que usam mongoose.
-
-## Como Usar
-
-1. git clone
-
-2. npm install jest supertest express mongoose jsonwebtoken
-
-3.
-
-## Autor
-
-Desenvolvido por Diego Franco
